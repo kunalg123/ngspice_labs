@@ -1,17 +1,17 @@
 ***Netlist description***
-M1 3 a vdd vdd pmos W=2.125u L=0.25u
-M2 2 b vdd vdd pmos W=2.125u L=0.25u
-M3 4 d 2 2 pmos W=2.125u L=0.25u
-M4 4 c 3 3 pmos W=2.125u L=0.25u
-M5 out e 4 4 pmos W=2.125u L=0.25u
-M6 out f 4 4 pmos W=2.125u L=0.25u
+M1 3 a vdd vdd pmos W=1.53u L=0.18u
+M2 2 b vdd vdd pmos W=1.53u L=0.18u
+M3 4 d 2 2 pmos W=1.53u L=0.18u
+M4 4 c 3 3 pmos W=1.53u L=0.18u
+M5 out e 4 4 pmos W=1.53u L=0.18u
+M6 out f 4 4 pmos W=1.53u L=0.18u
 
-M7 out a 6 6 nmos W=2.125u L=0.25u
-M8 out c 6 6 nmos W=2.125u L=0.25u
-M9 out e 7 7 nmos W=2.125u L=0.25u
-M10 6 b 0 0 nmos W=2.125u L=0.25u
-M11 6 d 0 0 nmos W=2.125u L=0.25u
-M12 7 f 0 0 nmos W=2.125u L=0.25u
+M7 out a 6 6 nmos W=1.53u L=0.18u
+M8 out c 6 6 nmos W=1.53u L=0.18u
+M9 out e 7 7 nmos W=1.53u L=0.18u
+M10 6 b 0 0 nmos W=1.53u L=0.18u
+M11 6 d 0 0 nmos W=1.53u L=0.18u
+M12 7 f 0 0 nmos W=1.53u L=0.18u
 
 cload out 0 10f
 
